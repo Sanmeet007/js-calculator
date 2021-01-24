@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+    <title>Js Calcultor</title>
+
+    
+
+    <link rel="stylesheet" href="style.css" title="" type="" />
+
+  </head>
+
+  <body>
+
+    
+
+    
+
+      <div class="container">
+
+      
+
+        <div class="display-result">
+
+        <div class="helpme">
+
+        <div id="display_history"></div><div id="calculation_history"></div>
+
+        </div>
+
+        <div id="results"></div>
+
+        </div>
+
+        <div class="calculate">
+
+          
+
+         <div class="table">
+
+          <div class="tabs">
+
+            
+
+            <div class="history">
+
+              Calculation History
+
+            </div>
+
+            <div class="clearme" id="clearme">
+
+              ×
+
+            </div>
+
+        <div class="hist" id="hist">
+
+            🔥
+
+            </div>
+
+           
+
+          </div> 
+
+          
+
+          
+
+           <div class="item">
+
+             <div class="inner clear" id="clear">
+
+               C
+
+             </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner extra brackets" onclick="paranthesis_open()">( </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner extra per" onclick="paranthesis_close()">)</div>
+
+           </div>
+
+           <div class="item">
+
+             <div onclick="num_press('*')" class="inner multipy" id="multipy">
+
+               ×
+
+             </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(1)">1</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(2)">2</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(3)">3</div>
+
+           </div>
+
+           <div class="item">
+
+             <div onclick="num_press('/')" class="inner division" id="divide">
+
+               ÷
+
+             </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(4)">4</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(5)">5</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(6)">6</div>
+
+           </div>
+
+           <div class="item">
+
+             <div onclick="num_press('+')" class="inner plus" id="add">
+
+               +
+
+             </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(7)">7</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(8)">8</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(9)">9</div>
+
+           </div>
+
+           <div class="item">
+
+             <div onclick="num_press('-')" class="inner minus" id="minus">-</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="spl" id="define_prepend" onclick="make_negative()">
+
+               +/-
+
+             </div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press(0)">0</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="inner" onclick="num_press('.')">.</div>
+
+           </div>
+
+           <div class="item">
+
+             <div class="equal" id="total">
+
+               =
+
+             </div>
+
+           </div>
+
+         
+
+           
+
+           
+
+           
+
+         </div>
+
+          
+
+          
+
+        </div>
+
+        
+
+        
+
+        
+
+      </div>
+
+      
+
+      
+
+    
+
+  
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+
+    <script src="calculate.js" type="text/javascript" charset="utf-8"></script>
+
+    
+
+   
+
+  </body>
+
+</html>
